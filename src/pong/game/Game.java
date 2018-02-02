@@ -52,7 +52,7 @@ public class Game extends Canvas implements Runnable {
 	
 	public Game(){
 		frame = new JFrame();
-		system.out.println("*");
+		
 		setMinimumSize(gameSize);
 		setPreferredSize(gameSize);
 		setMaximumSize(gameSize);
